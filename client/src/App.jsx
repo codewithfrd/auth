@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Navigate, Route, Routes } from "react-router-dom";
 import 'react-toastify/ReactToastify.css';
 import Register from "./pages/Register";
-import Login from "./pages/login";
+import Login from "./pages/Login";
 import Home from "./pages/home";
 import RefrshHandler from "./utils/RefrshHandler";
 
