@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Navigate, Route, Routes } from "react-router-d
 import 'react-toastify/ReactToastify.css';
 import Register from "./pages/Register";
 import Login from "./pages/Login";
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import RefrshHandler from "./utils/RefrshHandler";
 
 // Private Route Component
