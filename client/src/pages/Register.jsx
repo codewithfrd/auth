@@ -26,7 +26,7 @@ const Register = () => {
       return handleError("name, email and password are required");
     }
     try {
-      const url = "https://authapi1.vercel.app/singup";
+      const url = "https://authapi1.vercel.app/auth/singup";
       const response = await fetch(url, {
         method: "POST",
         headers: {
